@@ -1,0 +1,427 @@
+ingredient,unit
+spinach,gram
+lettuce,gram
+kale,gram
+arugula,gram
+collard greens,gram
+mustard greens,gram
+watercress,gram
+swiss chard,gram
+romaine,gram
+bok choy,gram
+carrot,gram
+potato,gram
+beet,gram
+radish,gram
+turnip,gram
+parsnip,gram
+sweet potato,gram
+daikon,gram
+rutabaga,gram
+celeriac,gram
+broccoli,gram
+cauliflower,gram
+cabbage,gram
+brussels sprouts,gram
+kohlrabi,gram
+radicchio,gram
+savoy cabbage,gram
+onion,gram
+garlic,gram
+leek,gram
+shallot,gram
+scallion,gram
+chive,gram
+spring onion,gram
+ramps,gram
+pearl onion,gram
+elephant garlic,gram
+celery,gram
+asparagus,gram
+rhubarb,gram
+fennel,gram
+green onion,gram
+chard stalk,gram
+broccoli stem,gram
+bamboo shoots,gram
+lemongrass,gram
+black beans,gram
+kidney beans,gram
+pinto beans,gram
+navy beans,gram
+lima beans,gram
+cannellini beans,gram
+soybeans,gram
+adzuki beans,gram
+mung beans,gram
+fava beans,gram
+chickpeas,gram
+green peas,gram
+snow peas,gram
+snap peas,gram
+black-eyed peas,gram
+pigeon peas,gram
+yellow peas,gram
+split peas,gram
+white peas,gram
+field peas,gram
+red lentils,gram
+green lentils,gram
+yellow lentils,gram
+brown lentils,gram
+black lentils,gram
+orange lentils,gram
+french lentils,gram
+spanish pardina lentils,gram
+beluga lentils,gram
+golden lentils,gram
+sprouted chickpeas,gram
+sprouted lentils,gram
+sprouted soybeans,gram
+sprouted mung beans,gram
+sprouted adzuki beans,gram
+sprouted black beans,gram
+sprouted kidney beans,gram
+sprouted pinto beans,gram
+sprouted navy beans,gram
+sprouted green peas,gram
+chicken,gram
+turkey,gram
+duck,gram
+goose,gram
+quail,gram
+pheasant,gram
+guinea fowl,gram
+squab,gram
+ostrich,gram
+partridge,gram
+beef,gram
+pork,gram
+venison,gram
+lamb,gram
+mutton,gram
+bison,gram
+goat,gram
+elk,gram
+wild boar,gram
+caribou,gram
+salmon,gram
+shrimp,gram
+tuna,gram
+cod,gram
+haddock,gram
+crab,gram
+crab,gram
+lobster,gram
+scallop,gram
+mackerel,gram
+octopus,gram
+rabbit,gram
+deer,gram
+wild boar,gram
+pheasant,gram
+elk,gram
+buffalo,gram
+caribou,gram
+duck,gram
+squirrel,gram
+grouse,gram
+orange,gram
+lemon,gram
+lime,gram
+grapefruit,gram
+mandarin,gram
+tangerine,gram
+pomelo,gram
+kumquat,gram
+bergamot,gram
+yuzu,gram
+strawberry,gram
+blueberry,gram
+raspberry,gram
+blackberry,gram
+cranberry,gram
+goji berry,gram
+boysenberry,gram
+elderberry,gram
+mulberry,gram
+huckleberry,gram
+banana,gram
+pineapple,gram
+mango,gram
+papaya,gram
+coconut,gram
+guava,gram
+lychee,gram
+passion fruit,gram
+kiwi,gram
+dragon fruit,gram
+peach,gram
+plum,gram
+cherry,gram
+apricot,gram
+nectarine,gram
+black cherry,gram
+white peach,gram
+sour cherry,gram
+pluot,gram
+avocado,gram
+sapote,gram
+breadfruit,gram
+soursop,gram
+jackfruit,gram
+durian,gram
+cherimoya,gram
+santol,gram
+pawpaw,gram
+black sapote,gram
+canned tomatoes,gram
+canned corn,gram
+canned peas,gram
+canned carrots,gram
+canned green beans,gram
+canned mushrooms,gram
+canned artichoke hearts,gram
+canned beets,gram
+canned pumpkin,gram
+canned olives,gram
+canned peaches,gram
+canned pineapples,gram
+canned pears,gram
+canned cherries,gram
+canned apricots,gram
+canned mango,gram
+canned mandarin oranges,gram
+canned fruit cocktail,gram
+canned lychee,gram
+canned apples,gram
+canned black beans,gram
+canned kidney beans,gram
+canned pinto beans,gram
+canned chickpeas,gram
+canned navy beans,gram
+canned lima beans,gram
+canned cannellini beans,gram
+canned refried beans,gram
+canned baked beans,gram
+canned tuna,gram
+canned salmon,gram
+canned sardines,gram
+canned mackerel,gram
+canned anchovies,gram
+canned clams,gram
+canned crab,gram
+canned oysters,gram
+canned shrimp,gram
+canned trout,gram
+rice,gram
+quinoa,gram
+bulgur,gram
+barley,gram
+farro,gram
+millet,gram
+oats,gram
+spelt,gram
+sorghum,gram
+freekeh,gram
+white rice,gram
+white rice,gram
+couscous,gram
+semolina,gram
+white flour,gram
+cornmeal,gram
+polenta,gram
+pasta,gram
+cracked wheat,gram
+wheat bran,gram
+corn grits,gram
+amaranth,gram
+buckwheat,gram
+chia,gram
+quinoa,gram
+teff,gram
+millet,gram
+spelt,gram
+kamut,gram
+emmer,gram
+einkorn,gram
+spaghetti,gram
+penne,gram
+fusilli,gram
+macaroni,gram
+lasagna,gram
+fettuccine,gram
+linguine,gram
+farfalle,gram
+rigatoni,gram
+rotini,gram
+all-purpose flour,gram
+whole wheat flour,gram
+bread flour,gram
+cake flour,gram
+self-rising flour,gram
+almond flour,gram
+coconut flour,gram
+oat flour,gram
+rye flour,gram
+gluten-free flour,gram
+white sugar,gram
+brown sugar,gram
+powdered sugar,gram
+cane sugar,gram
+coconut sugar,gram
+raw sugar,gram
+turbinado sugar,gram
+muscovado sugar,gram
+demerara sugar,gram
+date sugar,gram
+cinnamon,gram
+nutmeg,gram
+clove,gram
+allspice,gram
+ginger,gram
+cardamom,gram
+cumin,gram
+paprika,gram
+turmeric,gram
+coriander,gram
+olive oil,liter
+vegetable oil,liter
+canola oil,liter
+sunflower oil,liter
+coconut oil,liter
+avocado oil,liter
+sesame oil,liter
+peanut oil,liter
+grapeseed oil,liter
+flaxseed oil,liter
+green olives,gram
+black olives,gram
+kalamata olives,gram
+castelvetrano olives,gram
+manzanilla olives,gram
+gaeta olives,gram
+nicoise olives,gram
+cerignola olives,gram
+picholine olives,gram
+ligurian olives,gram
+jarred pickles,gram
+jarred salsa,gram
+jarred pasta sauce,gram
+jarred olives,gram
+jarred artichokes,gram
+jarred capers,gram
+jarred sun-dried tomatoes,gram
+jarred peppers,gram
+jarred pesto,gram
+jarred horseradish,gram
+table salt,gram
+sea salt,gram
+kosher salt,gram
+pink salt,gram
+iodized salt,gram
+celtic salt,gram
+flaky salt,gram
+smoked salt,gram
+black salt,gram
+pickling salt,gram
+milk,liter
+whole milk,liter
+skim milk,liter
+low fat milk,liter
+semi-skimmed milk,liter
+raw milk,liter
+buttermilk,liter
+heavy cream,liter
+whipping cream,liter
+light cream,liter
+sour cream,liter
+half-and-half,liter
+evaporated milk,liter
+sweetened condensed milk,liter
+goat milk,liter
+sheep milk,liter
+buffalo milk,liter
+camel milk,liter
+lactose-free milk,liter
+almond milk,liter
+soy milk,liter
+oat milk,liter
+coconut milk,liter
+rice milk,liter
+cashew milk,liter
+pea milk,liter
+hemp milk,liter
+macadamia milk,liter
+hazelnut milk,liter
+chocolate milk,liter
+strawberry milk,liter
+buttermilk liquid,liter
+water,liter
+sparkling water,liter
+mineral water,liter
+coconut water,liter
+tonic water,liter
+club soda,liter
+apple juice,liter
+orange juice,liter
+grapefruit juice,liter
+lemon juice,liter
+lime juice,liter
+pomegranate juice,liter
+grape juice,liter
+cranberry juice,liter
+pineapple juice,liter
+tomato juice,liter
+carrot juice,liter
+peach nectar,liter
+pear juice,liter
+mango juice,liter
+cherry juice,liter
+prune juice,liter
+aloe vera juice,liter
+beet juice,liter
+celery juice,liter
+kiwi juice,liter
+papaya juice,liter
+passion fruit juice,liter
+white vinegar,liter
+apple cider vinegar,liter
+balsamic vinegar,liter
+red wine vinegar,liter
+white wine vinegar,liter
+rice vinegar,liter
+champagne vinegar,liter
+malt vinegar,liter
+coconut vinegar,liter
+black vinegar,liter
+soy sauce,liter
+dark soy sauce,liter
+tamari,liter
+fish sauce,liter
+oyster sauce,liter
+worcestershire sauce,liter
+hot sauce,liter
+liquid smoke,liter
+pomegranate molasses,liter
+maple syrup,liter
+honey (liquid),liter
+agave nectar,liter
+molasses,liter
+corn syrup,liter
+glucose syrup,liter
+rose water,liter
+orange blossom water,liter
+vanilla extract,liter
+almond extract,liter
+peppermint extract,liter
+lemon extract,liter
+barbecue sauce,liter
+ketchup,liter
+mustard (liquid),liter
+mayonnaise,liter
+ranch dressing,liter
+caesar dressing,liter
+hot chili sauce,liter
+sriracha,liter
+tabasco sauce,liter

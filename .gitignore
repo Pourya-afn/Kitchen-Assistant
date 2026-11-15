@@ -1,0 +1,6 @@
+# Python / PyCharm / Environment
+.env
+.idea/
+venv/
+__pycache__/
+*.pyc
