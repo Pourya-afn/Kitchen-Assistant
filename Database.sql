@@ -32,9 +32,10 @@ CREATE TABLE ing_needed (
     CONSTRAINT fk_ing_needed_ingredient 
         FOREIGN KEY (ing_id) REFERENCES ingredients(ing_id) 
         ON DELETE CASCADE ON UPDATE CASCADE
-)
+);
 CREATE TABLE IF NOT EXISTS users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(100) UNIQUE NOT NULL,
     password VARCHAR(100) NOT NULL,
+    sub DATETIME NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
