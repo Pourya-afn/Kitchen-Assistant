@@ -65,7 +65,7 @@ def sync_inventory_to_mysql(username, local_items):
                 mydb.commit()
                 return True
     except sql.Error as err:
-        print(f"خطا در سینک اطلاعات به سرور مرکزی: {err}")
+        print(f"erorr: {err}")
         return False
 
 

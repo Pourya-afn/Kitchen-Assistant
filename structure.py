@@ -5,21 +5,6 @@ import socket
 
 SESSION_FILE = "current_session_user.txt"
 
-
-def get_last_user():
-    """خواندن نام آخرین کاربری که روی این سیستم بوده از یک فایل متنی سبک"""
-    if os.path.exists(SESSION_FILE):
-        with open(SESSION_FILE, "r") as f:
-            return f.read().strip()
-    return None
-
-def set_last_user(username):
-    with open(SESSION_FILE, "w") as f:
-        f.write(username)
-
-
-# توابع ثبت نام و ورود
-
 def sign_up(user, password):
     info = (user, password)
     db.add_user(info)
@@ -36,7 +21,7 @@ def login(user, password):
     # ۲. اگر کاربر جدیدی است که با کاربر قبلی فرق دارد
     if last_user and last_user != user:
         # بررسی اتصال به اینترنت برای جلوگیری از دست رفتن داده‌های کاربر قبلی
-        if not db.check_internet_connection():
+        if not check_internet_connection():
             return False,
 
         # استخراج داده‌های کاربر قبلی از دیتابیس محلی‌اش
@@ -49,7 +34,7 @@ def login(user, password):
             # بعد از سینک موفق، فایل دیتابیس یوزر قبلی را پاک می‌کنیم
             kitchen_db.delete_local_db(last_user)
         else:
-            return False, "خطا در همگام‌سازی اطلاعات کاربر قبلی با سرور."
+            return False
 
     # ۳. آماده‌سازی دیتابیس محلی برای کاربرِ جدید (اگر وجود نداشته باشد ساخته می‌شود)
     kitchen_db.init_db(user)
@@ -57,12 +42,24 @@ def login(user, password):
     # ۴. آپدیت کردن فایل نشستِ آخرین کاربر
     set_last_user(user)
 
-    return True, "ورود با موفقیت انجام شد."
+    return True
+
+
+def get_last_user():
+    """خواندن نام آخرین کاربری که روی این سیستم بوده از یک فایل متنی سبک"""
+    if os.path.exists(SESSION_FILE):
+        with open(SESSION_FILE, "r") as f:
+            return f.read().strip()
+    return None
+
+
+def set_last_user(username):
+    with open(SESSION_FILE, "w") as f:
+        f.write(username)
+
 
 def check_internet_connection():
-    """بررسی ساده‌ی اتصال به اینترنت برای مواقع تغییر کاربر"""
     try:
-        # تست اتصال به سرور نامعتبر یا گوگل‌پنجره
         socket.create_connection(("8.8.8.8", 53), timeout=3)
         return True
     except OSError:

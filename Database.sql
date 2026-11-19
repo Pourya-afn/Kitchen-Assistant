@@ -5,16 +5,16 @@ USE kitchen_db;
 -- ۲. ساخت جدول مواد اولیه (Ingredients)
 CREATE TABLE ingredients (
     ing_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(100) NOT NULL UNIQUE,
-    unit VARCHAR(20) NOT NULL
+    name VARCHAR(20) NOT NULL UNIQUE,
+    unit VARCHAR(10) NOT NULL
 ) AUTO_INCREMENT = 1500;
 
 -- ۳. ساخت جدول دستورات پخت (Recipes)
 CREATE TABLE recipes (
     food_id INT AUTO_INCREMENT PRIMARY KEY,
-    name VARCHAR(150) NOT NULL,
-    time INT,
-    category VARCHAR(50),
+    name VARCHAR(50) NOT NULL,
+    duration INT,
+    category VARCHAR(20),
     recipe TEXT NOT NULL
 ) AUTO_INCREMENT = 6500;
 
@@ -35,7 +35,7 @@ CREATE TABLE ing_needed (
 );
 CREATE TABLE IF NOT EXISTS users (
     user_id INT AUTO_INCREMENT PRIMARY KEY,
-    username VARCHAR(100) UNIQUE NOT NULL,
-    password VARCHAR(100) NOT NULL,
-    sub DATETIME NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+    username VARCHAR(20) UNIQUE NOT NULL,
+    password VARCHAR(20) NOT NULL,
+    sub DATETIME NOT NULL DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci AUTO_INCREMENT = 55500;
